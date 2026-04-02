@@ -9,9 +9,9 @@ def calcular_preco_impressao3d(peso_gramas, custo_material_por_grama, tempo_hora
 
 
 
-custo_material_por_grama = 0.10   # R$ por grama
-custo_maquina_por_hora = 8.00     # R$ por hora
-margem_lucro = 0.65              # 25% de lucro
+custo_material_por_grama = 0.10   # R$ por grama modifique aqui
+custo_maquina_por_hora = 8.00     # R$ por hora modifique aqui
+margem_lucro = 0.65              # 65% de lucro modifique aqui
 
 while True:
     peso = float(input("Digite o peso da peça em gramas: "))
